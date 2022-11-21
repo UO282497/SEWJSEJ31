@@ -1,0 +1,98 @@
+body{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    height: 120%;
+    
+
+}
+
+main { 
+    width: 50%;    
+    display: grid;
+    grid-template-rows: [botr] 4.3em[oner] 4.3em[twor] 4.3em[threer] 4.3em[fourr] 4.3em[fiver] 4.3em[sixr];
+    grid-template-columns: [botc] 4.3em[onec] 4.3em[twoc] 4.3em[threec] 4.3em[fourc];
+    font-family: Tahoma, sans-serif;
+    color: #000000;
+    background-color: #c6fad6;
+    border-radius: 1em;
+    border-color: #000000;
+    border-style: double;
+    border-width: 0.1em;
+    
+    
+    
+}
+
+header{
+    background-color: #FFFFD2;
+    grid-column-start: botc;
+    grid-column-end: threec;
+    grid-row-start: twor;
+    grid-row-end: sixr;
+    height: auto;
+    display: grid;
+    grid-template-rows: [botr] 4.3em[oner] 4.3em[twor] 4.3em[threer] ;
+    grid-template-columns: [botc] 4.3em[onec] 4.3em[twoc] 4.3em[threec] ;
+    border-radius: 1em;
+    border-color: #000000;
+    border-style: double;
+    border-width: 0.1em;
+    
+    
+}
+
+
+
+input[type=text]{
+    
+    background-color: #73746C;
+    width: 100%;
+    color: black;
+    font-size: 150%;
+                                                
+}
+
+aside{
+    grid-column-start: botc;
+    grid-column-end: fivec;
+    background-color: #AB96DB;
+    height: 110%;
+    display: flex;
+    align-items: center;
+    border-radius: 1em;
+    
+
+}
+
+
+input[title="c"]{
+    border-radius: 2em;
+    height: 2em;
+    align-self: center;
+    
+}
+
+input{
+    border-radius: 1em;
+    height: 70%;
+    align-self: center;
+    margin-left: 0.5em;
+    margin-right : 0.5em;
+    background-color:white;
+    
+}
+
+
+
+input[value="+"]{
+    grid-column-start: threec;
+    grid-column-end: fourc;
+    grid-row-start: fourr;
+    grid-row-end: sixr;
+    height: 100%;
+    
+}
+
+
